@@ -1,0 +1,107 @@
+/* === Login Page Styles === */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+                url('soldier2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #eee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7); /* Transparent dark background */
+    padding: 40px 45px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(10, 50, 10, 0.9);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #a8d5a8;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.error {
+    background-color: #b83333cc;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+label {
+    text-align: left;
+    font-weight: 600;
+    color: #c7e0c7;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #4a6a4a;
+    background-color: #2e4430;
+    color: #d6f1d6;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #4a6a4a;
+    outline: none;
+    color: #e8f4e8;
+}
+
+button {
+    background: linear-gradient(45deg, #547f47, #365a2a);
+    color: #f1f9f1;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #6ca15e, #4e7b38);
+}
+
+.register-link {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #b2d0b2;
+}
+
+.register-link a {
+    color: #a4f7a4;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.register-link a:hover {
+    color: #d0ffd0;
+    text-decoration: underline;
+}
